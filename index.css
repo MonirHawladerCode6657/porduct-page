@@ -30,8 +30,10 @@ display: none;
     background-color: rgb(255, 255, 255);
 }
 .main-section{
+    width: 100%;
  height: fit-content;
     padding: 0px 50px;
+    box-sizing: border-box;
 }
 header{
 height: 100px;
@@ -104,15 +106,15 @@ border-radius:10px;
     padding: 10px;
     box-sizing: border-box !important;
 }
-.product-name-0 h1{
+.product-name-1 h1{
     font-size: 60px;
     margin: 0%;
 }
-.product-name-0 p{
+.product-name-1 p{
     color: rgb(122, 122, 122);
 }
   
-.product-name-0 button{
+.product-name-1 button{
     height: 50px;
     width:90%;
     background-color: black;
@@ -124,7 +126,7 @@ border-radius: 10px;
 }
 
 
-.product-main-1 {
+.product-main-2 {
 width: 100%;
 height: fit-content;
 display: flex;
